@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import "./mainContainer.css"
 
 function App() {
 
   return (
-    <div>
-    
-    </div>
+        <section id='mainContainer'>
+
+        </section>
   )
 }
 
