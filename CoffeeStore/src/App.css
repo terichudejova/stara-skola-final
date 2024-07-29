@@ -1,16 +1,14 @@
+:root {
+    --main-color: #e3cbb6;
+    --second-color: #b9a89a;
+    --third-color: #524438;
+    --title-font: "Playwrite BE VLG", cursive;
+    --main-font: "Noto Sans SC", sans-serif;
+}
+
 body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   height: 100%;
-}
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }

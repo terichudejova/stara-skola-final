@@ -6,7 +6,6 @@ function App() {
 
   return (
         <section id='mainContainer'>
-
         </section>
   )
 }
