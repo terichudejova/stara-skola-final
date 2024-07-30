@@ -4,6 +4,7 @@ import "./mainContainer.css"
 import "./landingPage.css"
 import NavigationBar from './NavigationBar'
 import "./navbar.css"
+import "./nabidka.css"
 
 function App() {
 
