@@ -117,9 +117,12 @@ function App() {
                 </div>
                 <div id="dort" className='menu'>
                     <h4>K zakousnutí</h4>
-                    <p>Každý den pečeme nové dobroty.</p>
+                    <p>Každý den pečeme nové dobroty.n</p>
                 </div>
                 <div id='prostor'></div>
+                <img id="pytel" src='/src/images/pytel.png'/>
+                <img id='beans' src='/src/images/beans.png'/>
+                <img id='mocha' src='/src/images/mocha.png'/>
             </div>
             <div id="kontakt">
 

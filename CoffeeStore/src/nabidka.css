@@ -1,4 +1,5 @@
 #nabidka {
+    position: relative;
     height: 1200px;
     background-color: var(--third-color);
     width: 65%;
@@ -96,3 +97,29 @@
     width: 30%;
     text-align: right;
 }
+
+#pytel {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: -15%;
+}
+
+#mocha {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: -10%;
+    top: 40%;
+    transform: rotate(15deg);
+}
+
+#beans {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 25%;
+    top: 20%;
+}
+
