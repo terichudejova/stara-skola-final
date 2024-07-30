@@ -16,7 +16,7 @@ function App() {
               <div id='navbar'>
                   <NavigationBar/>
               </div>
-                <h1>kavárna Stará škola</h1>
+                <h1 id='onas'>kavárna Stará škola</h1>
             </div>
             <div id='nabidka'>
 
