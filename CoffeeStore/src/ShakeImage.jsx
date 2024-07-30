@@ -1,0 +1,33 @@
+
+import React, { useState } from 'react';
+import './ShakeImage.css';
+import { useIsRTL } from 'react-bootstrap/esm/ThemeProvider';
+
+export default function ShakeImage({url, top, left, width, height}) {
+  const [isShaking, setIsShaking] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsShaking(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsShaking(false);
+  };
+
+  return (
+    <img
+      src={url}
+      alt="Shaking"
+      className={isShaking ? 'shake' : ''}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      style={{ 
+        width: width, 
+        height: height, 
+        position: 'absolute', 
+        top: top, 
+        left: left,
+      }}
+    />
+  );
+}
