@@ -19,7 +19,7 @@ export default function NavigationBar() {
       </div>
       <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
         <a href="#landingPage">O nás</a>
-        <a href="#nabidka">Nabídka</a>
+        <a href="#nadpis">Nabídka</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
     </div>
