@@ -156,6 +156,8 @@ function App() {
                   </div>
                   <AddressMap/>
                 </div>
+                {/* <img id='dots3' src='/src/images/dots3.png'/>
+                <img id='dots4' src='/src/images/dots4.png'/> */}
                 <p id='copyright'>© Tereza Chudějová 2024</p>
             </div>
         </div>
