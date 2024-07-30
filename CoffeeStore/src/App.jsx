@@ -16,6 +16,9 @@ function App() {
               </div>
                 <h1>kavárna Stará škola</h1>
             </div>
+            <div id='nabidka'>
+
+            </div>
         </div>
     </div>
   )
