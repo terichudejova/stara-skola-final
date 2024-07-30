@@ -1,5 +1,7 @@
 .hamburger-menu {
-    position: relative;
+    position: fixed;
+    top: 40px;
+    right: 20px;
     z-index: 1;
     width: 120px;
     display: flex;
@@ -20,7 +22,7 @@
   .bar {
     height: 3px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 3px;
     transition: all 0.3s ease;
   }
@@ -38,6 +40,7 @@
   }
   
   .nav-menu {
+    border-radius: 10px;
     display: none;
     flex-direction: column;
     top: 50px;
@@ -58,3 +61,6 @@
     color: black;
   }
   
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }

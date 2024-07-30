@@ -5,6 +5,7 @@ import "./landingPage.css"
 import NavigationBar from './NavigationBar'
 import "./navbar.css"
 import "./nabidka.css"
+import "./kontakt.css"
 
 function App() {
 
@@ -20,8 +21,11 @@ function App() {
             <div id='nabidka'>
 
             </div>
+            <div id="kontakt">
+
+            </div>
         </div>
-f    </div>
+   </div>
   )
 }
 
