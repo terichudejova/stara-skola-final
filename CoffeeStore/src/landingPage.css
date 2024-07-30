@@ -23,11 +23,7 @@
 
 #landingPage h1 {
     font-family: var(--title-font);
-<<<<<<< HEAD
-}
-=======
     margin: 0;
     z-index: 1;
-
+    color: var(--third-color);
 }
->>>>>>> nabidka

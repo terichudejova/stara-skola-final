@@ -1,14 +1,23 @@
 #navbar {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding-top: 50px;
     padding-right: 20px;
-<<<<<<< HEAD
 }
 
-=======
+#logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
 }
->>>>>>> nabidka
+
+#logo:hover {
+    cursor: pointer;
+}

@@ -1,7 +1,7 @@
 :root {
-    --main-color: #e3cbb6;
-    --second-color: #b9a89a;
-    --third-color: #524438;
+    --main-color: rgb(20,59,83);
+    --second-color: white;
+    --third-color: #f4dcdc;
     --title-font: "Playwrite BE VLG", cursive;
     --main-font: "Noto Sans SC", sans-serif;
 }

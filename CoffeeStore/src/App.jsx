@@ -14,6 +14,7 @@ function App() {
         <div id='mainContainer'>
             <div id='landingPage'>
               <div id='navbar'>
+                  <a href='#landingPage'><img id="logo" src="src/images/logo.jpg"/></a>
                   <NavigationBar/>
               </div>
                 <h1 id='onas'>kavárna Stará škola</h1>
