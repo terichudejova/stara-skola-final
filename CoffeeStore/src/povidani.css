@@ -1,0 +1,19 @@
+#povidani {
+    background-color: var(--main-color);
+    width: 500px;
+    height: 300px;
+    margin-top: 40px; 
+    margin-left: 100px;
+}
+
+#povidani h2 {
+    font-family: var(--main-font);
+    color: white;
+    font-size: 30px;
+}
+
+#povidani p {
+    color: white;
+    text-align: justify;
+    font-weight: 400;
+}

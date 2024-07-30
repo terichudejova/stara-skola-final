@@ -8,6 +8,7 @@ import "./nabidka.css"
 import "./kontakt.css"
 import "./kdoJsme.css"
 import CarouselGallery from './CarouselGallery'
+import "./povidani.css"
 
 function App() {
 
@@ -23,6 +24,16 @@ function App() {
               <p>- místo, kde se zastaví čas a oživí vzpomínky na nejlepší koláče od babičky -</p>
               <div id="kdoJsme">
                   <CarouselGallery/>
+                  <div id='povidani'>
+                      <h2>Kdo jsme?</h2>
+                      <p>
+                        Jsme smíchovská kavárna Stará škola zaměstnávající seniory, kteří nechtějí v důchodu sedět doma,
+                        ale baví je pracovat a být mezi lidmi. Jsme sociálním podnikem, a každým šálkem kávy tak
+                        podpoříte provoz center pro seniory. Připravujeme zde výběrovou kávu a pečeme si tu vlastní
+                        buchty, koláče nebo bábovky. No budete se u nás cítit přesně jako u babičky. A to nejen díky
+                        zmiňovaným dobrotám, ale také příjemnému nostalgickému prostředí.
+                      </p>
+                  </div>
               </div>
             </div>
             <div id='nabidka'>
