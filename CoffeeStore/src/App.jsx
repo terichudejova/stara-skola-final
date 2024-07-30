@@ -18,6 +18,7 @@ function App() {
                   <NavigationBar/>
               </div>
                 <h1 id='onas'>kavárna Stará škola</h1>
+                <p>- místo, kde se zastaví čas a oživí vzpomínky na nejlepší koláče od babičky -</p>
             </div>
             <div id='nabidka'>
 
