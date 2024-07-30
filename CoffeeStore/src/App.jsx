@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from 'react'
 import './App.css'
 import "./mainContainer.css"
 import "./landingPage.css"
@@ -10,6 +11,9 @@ import "./kdoJsme.css"
 import CarouselGallery from './CarouselGallery'
 import "./povidani.css"
 import { AddressMap } from './AddressMap'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import MailOutlineIcon from '@mui/icons-material/MailOutline'
 
 function App() {
 
@@ -120,7 +124,7 @@ function App() {
                 </div>
                 <div id="dort" className='menu'>
                     <h4>K zakousnutí</h4>
-                    <p>Každý den pečeme nové dobroty.n</p>
+                    <p>Každý den pečeme nové dobroty.</p>
                 </div>
                 <div id='prostor'></div>
                 <img id="pytel" src='/src/images/pytel.png'/>
@@ -130,14 +134,28 @@ function App() {
             <div id="kontakt">
                 <h2>Přijďte nás navštívit</h2>
                 <div className='contactPage'>
-                  <div className='adresa'>
-                    <p>Adresa:</p>
-                    <br/>
-                    <p>Na Bělidle 34</p>
-                    <p>150 00 Praha 5</p>
+                  <div className='contactCard'>
+                    <div className='adresa'>
+                      <p>Adresa:</p>
+                      <p>Na Bělidle 34</p>
+                      <p>150 00 Praha 5</p>
+                    </div>
+                    <div className='adresa'>
+                      <p>Otevírací doba:</p>
+                      <p>Po-Pá: 8:00 - 19:00</p>
+                    </div>
+                    <div className='adresa'>
+                      <p>Kontakt:</p>
+                      <div className='contactIcons'>
+                        <a href='https://www.facebook.com/elpidaproseniory/' target='_blank'><FacebookIcon style={{ fontSize: 40 }} className='iconka'/></a>
+                        <a href='https://www.instagram.com/staraskola_elpida/?hl=cs' target='_blank'><InstagramIcon style={{ fontSize: 40 }} className='iconka'/></a>
+                        <a href='mailto:info@elpida.cz' target='_blank'><MailOutlineIcon style={{ fontSize: 40 }} className='iconka'/></a>
+                      </div>
+                    </div>
                   </div>
                   <AddressMap/>
                 </div>
+                <p id='copyright'>© Tereza Chudějová 2024</p>
             </div>
         </div>
    </div>
