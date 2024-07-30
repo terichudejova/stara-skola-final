@@ -6,6 +6,8 @@ import NavigationBar from './NavigationBar'
 import "./navbar.css"
 import "./nabidka.css"
 import "./kontakt.css"
+import "./kdoJsme.css"
+import CarouselGallery from './CarouselGallery'
 
 function App() {
 
@@ -17,8 +19,11 @@ function App() {
                   <a href='#landingPage'><img id="logo" src="src/images/logo.jpg"/></a>
                   <NavigationBar/>
               </div>
-                <h1 id='onas'>kavárna Stará škola</h1>
-                <p>- místo, kde se zastaví čas a oživí vzpomínky na nejlepší koláče od babičky -</p>
+              <h1 id='onas'>kavárna Stará škola</h1>
+              <p>- místo, kde se zastaví čas a oživí vzpomínky na nejlepší koláče od babičky -</p>
+              <div id="kdoJsme">
+                  <CarouselGallery/>
+              </div>
             </div>
             <div id='nabidka'>
 
