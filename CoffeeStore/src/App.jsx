@@ -27,10 +27,10 @@ function App() {
                   <div id='povidani'>
                       <h2>Kdo jsme?</h2>
                       <p>
-                        Jsme smíchovská kavárna Stará škola zaměstnávající seniory, kteří nechtějí v důchodu sedět doma,
+                        Jsme smíchovská kavárna Stará škola sídlící v budově první obecné školy na Smíchově a zaměstnávající seniory, kteří nechtějí v důchodu sedět doma,
                         ale baví je pracovat a být mezi lidmi. Jsme sociálním podnikem, a každým šálkem kávy tak
                         podpoříte provoz center pro seniory. Připravujeme zde výběrovou kávu a pečeme si tu vlastní
-                        buchty, koláče nebo bábovky. No budete se u nás cítit přesně jako u babičky. A to nejen díky
+                        buchty, koláče nebo bábovky. No, budete se u nás cítit přesně jako u babičky. A to nejen díky
                         zmiňovaným dobrotám, ale také příjemnému nostalgickému prostředí.
                       </p>
                   </div>

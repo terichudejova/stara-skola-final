@@ -1,7 +1,7 @@
 
 
 #landingPage {
-    height: 400px;
+    height: 500px;
     background-color: var(--main-color);
     width: 100%;
     position: relative;
@@ -18,7 +18,7 @@
     background-color: var(--main-color);
     transform: skewY(-10deg);
     position: absolute;
-    top: 220px;
+    top: 360px;
 }
 
 #landingPage h1 {
