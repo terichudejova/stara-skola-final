@@ -9,7 +9,7 @@ function App() {
     <div>
         <div id='mainContainer'>
             <div id='landingPage'>
-
+                <h1>kavárna Stará škola</h1>
             </div>
         </div>
     </div>

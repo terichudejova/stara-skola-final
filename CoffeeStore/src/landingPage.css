@@ -5,6 +5,10 @@
     background-color: var(--main-color);
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 #landingPage::after {
@@ -15,4 +19,11 @@
     transform: skewY(-10deg);
     position: absolute;
     top: 220px;
+}
+
+#landingPage h1 {
+    font-family: var(--title-font);
+    margin: 0;
+    padding-top: 40px;
+
 }
