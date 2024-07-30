@@ -37,7 +37,85 @@ function App() {
               </div>
             </div>
             <div id='nabidka'>
-
+                <div id='nadpis'>
+                  <h3>Nabídka</h3>
+                </div>
+                <div id='kava' className='menu'>
+                  <h4>Káva</h4>
+                  <div className='ceny'>
+                    <div className='left'>
+                    <ul>
+                        <li>espresso/lungo</li>
+                        <li>double espresso</li>
+                        <li>capuccino</li>
+                        <li>cafe latte</li>
+                        <li>flat white</li>
+                        <li>filtrovaná káva</li>
+                        <li>vídeňská káva</li>
+                        <li>alžírská káva</li>
+                        <li>turecká káva</li>
+                      </ul>
+                    </div>
+                    <div className='right'>
+                      <ul>
+                        <li>50 Kč</li>
+                        <li>65 Kč</li>
+                        <li>65 Kč</li>
+                        <li>75 Kč</li>
+                        <li>75 Kč</li>
+                        <li>65 Kč</li>
+                        <li>70 Kč</li>
+                        <li>75 Kč</li>
+                        <li>50 Kč</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id='caj' className='menu'>
+                  <h4>Horké nápoje</h4>
+                  <div className='ceny'>
+                    <div className='left'>
+                      <ul>
+                        <li>čerstvý mátový čaj</li>
+                        <li>čerstvý zázvorový čaj</li>
+                        <li>sáčkový čaj</li>
+                        <li>kakao</li>
+                      </ul>
+                    </div>
+                    <div className='right'>
+                      <ul>
+                        <li>60 Kč</li>
+                        <li>60 Kč</li>
+                        <li>50 Kč</li>
+                        <li>55 Kč</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id='limo' className='menu'>
+                  <h4>Studené nápoje</h4>
+                  <div className='ceny'>
+                    <div className='left'>
+                      <ul>
+                        <li>domácí limonáda</li>
+                        <li>sodovka 0,1 l</li>
+                        <li>mošt 0,1 l</li>
+                        <li>bílé víno 0,1 l</li>
+                        <li>červené víno 0,1 l</li>
+                      </ul>
+                    </div>
+                    <div className='right'>
+                      <ul>
+                        <li>65 Kč</li>
+                        <li>7 Kč</li>
+                        <li>15 Kč</li>
+                        <li>30 Kč</li>
+                        <li>30 Kč</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id='prostor'></div>
             </div>
             <div id="kontakt">
 
