@@ -35,6 +35,8 @@ function App() {
                       </p>
                   </div>
               </div>
+              <img id='dots1' src='/src/images/dots1.png'/>
+              <img id='dots2' src='/src/images/dots2.png'/>
             </div>
             <div id='nabidka'>
                 <div id='nadpis'>
