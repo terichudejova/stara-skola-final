@@ -38,7 +38,7 @@
 
 #dots1 {
     position: absolute;
-    right: -5%;
+    right: 0;
     top: 40%;
     z-index: 1;
 }

@@ -9,6 +9,7 @@ import "./kontakt.css"
 import "./kdoJsme.css"
 import CarouselGallery from './CarouselGallery'
 import "./povidani.css"
+import { AddressMap } from './AddressMap'
 
 function App() {
 
@@ -127,7 +128,16 @@ function App() {
                 <img id='mocha' src='/src/images/mocha.png'/>
             </div>
             <div id="kontakt">
-
+                <h2>Přijďte nás navštívit</h2>
+                <div className='contactPage'>
+                  <div className='adresa'>
+                    <p>Adresa:</p>
+                    <br/>
+                    <p>Na Bělidle 34</p>
+                    <p>150 00 Praha 5</p>
+                  </div>
+                  <AddressMap/>
+                </div>
             </div>
         </div>
    </div>
