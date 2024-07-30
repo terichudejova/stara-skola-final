@@ -115,6 +115,10 @@ function App() {
                     </div>
                   </div>
                 </div>
+                <div id="dort" className='menu'>
+                    <h4>K zakousnutí</h4>
+                    <p>Každý den pečeme nové dobroty.</p>
+                </div>
                 <div id='prostor'></div>
             </div>
             <div id="kontakt">

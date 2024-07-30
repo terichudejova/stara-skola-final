@@ -1,18 +1,22 @@
 #nabidka {
     height: 1200px;
     background-color: var(--third-color);
-    width: 60%;
+    width: 65%;
     display: grid;
     grid-template-areas:
     "nadpis nadpis nadpis nadpis"
     "kava kava caj caj"
+    "kava kava caj caj"
+    "kava kava caj caj"
     "kava kava limo limo"
+    "dort dort limo limo"
+    "dort dort limo limo"
     "prostor prostor prostor prostor";
 }
 
 #nadpis {
-    margin-top: 220px;
-    margin-right: 10px;
+    margin-top: 250px;
+    margin-right: 20px;
     grid-area: nadpis;
     display: flex;
     justify-content: end;
@@ -20,18 +24,26 @@
     font-family: var(--main-font);
 }
 
+#nadpis h3 {
+    font-size: 30px;
+}
+
 #kava {
-    margin-top: 80px;
+    margin-top: 60px;
     grid-area: kava;
 }
 
 #caj {
-    margin-top: 80px;
+    margin-top: 60px;
     grid-area: caj;
 }
 
 #limo {
     grid-area: limo;
+}
+
+#dort {
+    grid-area: dort;
 }
 
 #prostor {
