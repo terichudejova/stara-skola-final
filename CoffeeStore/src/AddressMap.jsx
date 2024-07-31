@@ -1,4 +1,6 @@
 import React from 'react';
+import "./AddressMap.css";
+
 const AddressMap = () => {
     return (
         <div className="google-map-code">

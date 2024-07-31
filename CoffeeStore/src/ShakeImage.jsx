@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './ShakeImage.css';
 import { useIsRTL } from 'react-bootstrap/esm/ThemeProvider';
 
-export default function ShakeImage({url, top, left, width, height}) {
+export default function ShakeImage({url, top, left, width, height, className}) {
   const [isShaking, setIsShaking] = useState(false);
 
   const handleMouseEnter = () => {
@@ -18,7 +18,7 @@ export default function ShakeImage({url, top, left, width, height}) {
     <img
       src={url}
       alt="Shaking"
-      className={isShaking ? 'shake' : ''}
+      className={`${isShaking ? 'shake' : ''} ${className}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       style={{ 

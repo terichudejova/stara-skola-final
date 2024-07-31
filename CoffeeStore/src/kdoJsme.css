@@ -11,3 +11,14 @@
     margin-top: 60px;
 }
 
+/* RESPONSIVITY */
+
+/* Menší než 750px */
+@media only screen and (max-width: 750px) {
+    #kdoJsme {
+        flex-direction: column;
+        margin-top: 10px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}

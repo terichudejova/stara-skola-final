@@ -11,3 +11,27 @@
     object-fit: cover;
   }
 
+/* RESPONSIVITY */
+
+/* Menší než 750px */
+
+@media only screen and (max-width: 750px) {
+  .carousel {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .carousel {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .carousel-item img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+    }
+}

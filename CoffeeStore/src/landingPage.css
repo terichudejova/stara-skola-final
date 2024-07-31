@@ -49,3 +49,77 @@
     top: 20%;
     z-index: 1;
 }
+
+
+
+/* RESPONSIVITY */
+
+/* Bigger screen */
+@media only screen and (min-width: 1550px) {
+    #landingPage {
+        height: 600px;
+    }
+    
+    #landingPage::after {
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    #landingPage {
+        height: 700px;
+    }
+    
+    #landingPage::after {
+        height: 550px;
+        top: 420px;
+    }
+}
+
+
+/* 1000 - 1400px */
+@media only screen and (max-width: 1400px) {
+    #dots1 {
+        display: none;
+    }
+
+    #dots2 {
+        display: none;
+    }
+}
+
+/* Menší než 1000px */
+@media only screen and (max-width: 999px) {
+    #landingPage p {
+        font-size: 15xpx;
+    }
+
+    #kdojsme {
+        padding-right: 20px;
+    }
+
+    #povidani {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #landingPage p {
+        font-size: 13px;
+    }
+}
+
+/* Menší než 750px */
+
+@media only screen and (max-width: 750px) {
+    #landingPage {
+        height: 800px;
+    }
+
+    #landingPage::after {
+        height: 350px;
+        top: 660px;
+    }
+
+    
+}

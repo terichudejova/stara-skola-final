@@ -17,3 +17,29 @@
     text-align: justify;
     font-weight: 400;
 }
+
+
+/* RESPONSIVITY */
+
+/* Menší než 1000px */
+@media only screen and (max-width: 999px) {
+    #povidani {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #povidani h2 {
+        font-size: 25px;
+    }
+}
+
+/* Menší než 750px */
+@media only screen and (max-width: 750px) {
+    #povidani {
+        margin-left: 0;
+        text-align: center;
+        order: -1;
+        height: 250px;
+    }
+}

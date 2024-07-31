@@ -108,3 +108,14 @@
     cursor: pointer;
 }
 
+
+
+/* RESPONSIVITY */
+
+/* Bigger screen */
+@media only screen and (min-width: 1500px) {
+    #nabidka {
+        width: 50%;
+    }
+}
+

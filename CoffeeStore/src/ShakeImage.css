@@ -6,7 +6,18 @@
     100% { transform: rotate(0deg); }
   }
   
-  .shake {
+  .shake:hover {
     animation: shake 0.5s infinite;
   }
-  
+
+@media (max-width: 1700px) {
+    .beans {
+        left: 60% !important;
+    }
+}
+
+@media (max-width: 1000px) {
+  .beans {
+      left: 50% !important;
+  }
+}
