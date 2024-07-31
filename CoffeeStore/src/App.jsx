@@ -1,26 +1,36 @@
+// Import Reactu
 import { useState } from 'react'
 import React from 'react'
+
+// Import css souborů
 import './App.css'
 import "./mainContainer.css"
 import "./landingPage.css"
-import NavigationBar from './NavigationBar'
 import "./navbar.css"
 import "./nabidka.css"
 import "./kontakt.css"
 import "./kdoJsme.css"
-import CarouselGallery from './CarouselGallery'
 import "./povidani.css"
+
+// Import komponent
+import NavigationBar from './NavigationBar'
+import CarouselGallery from './CarouselGallery'
 import { AddressMap } from './AddressMap'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import MailOutlineIcon from '@mui/icons-material/MailOutline'
 import ShakeImage from './ShakeImage';
 
+
+// Export App
+
 function App() {
 
   return (
     <div>
         <div id='mainContainer'>
+
+          {/* ÚVODNÍ (MODRÁ) LANDING PAGE */}
             <div id='landingPage'>
               <div id='navbar'>
                   <a href='#landingPage'><img id="logo" src="src/images/logo.jpg"/></a>
@@ -44,6 +54,8 @@ function App() {
               <img id='dots1' src='/src/images/dots1.png'/>
               <img id='dots2' src='/src/images/dots2.png'/>
             </div>
+
+            {/* SEKCE MENU (PINK) */}
             <div id='nabidka'>
                 <div id='nadpis'>
                   <h3>Nabídka</h3>
@@ -132,6 +144,8 @@ function App() {
                 <ShakeImage url={"/src/images/beans.png"} top={"20%"} left={"70%"} width={"80px"} height={"80px"} className="shake"/>
                 <ShakeImage url={"/src/images/mocha.png"} top={"50%"} left={"95%"} width={"120px"} height={"120px"} className="shake"/>
             </div>
+
+            {/* SEKCE KONTAKT */}
             <div id="kontakt">
                 <h2>Přijďte nás navštívit</h2>
                 <div className='contactPage'>

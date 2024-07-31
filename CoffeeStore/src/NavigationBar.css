@@ -1,3 +1,6 @@
+
+
+/* Celé hamburger menu */
 .hamburger-menu {
     position: fixed;
     top: 60px;
@@ -10,6 +13,7 @@
     align-items: center;
   }
   
+  /* Samotný "hamburger" */
   .menu-toggle {
     cursor: pointer;
     width: 30px;
@@ -26,7 +30,8 @@
     border-radius: 3px;
     transition: all 0.3s ease;
   }
-  
+
+  /* Přechod hamburgeru na křížek */
   .menu-toggle.open .bar:nth-child(1) {
     transform: rotate(45deg) translate(5px, 8px) scaleX(1.2);
   }
@@ -39,6 +44,7 @@
     transform: rotate(-45deg) translate(5px, -8px) scaleX(1.2);
   }
   
+  /* Styling rozbalené nabídky */
   .nav-menu {
     border-radius: 10px;
     display: none;

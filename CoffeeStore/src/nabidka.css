@@ -1,3 +1,5 @@
+
+/* NABÍDKA PAGE - grid */
 #nabidka {
     position: relative;
     height: 1200px;
@@ -15,6 +17,11 @@
     "prostor prostor prostor prostor";
 }
 
+#nadpis h3 {
+    font-size: 30px;
+}
+
+/* Přiřazení grid areas */
 #nadpis {
     margin-top: 250px;
     margin-right: 20px;
@@ -23,10 +30,6 @@
     justify-content: end;
     align-items: end;
     font-family: var(--main-font);
-}
-
-#nadpis h3 {
-    font-size: 30px;
 }
 
 #kava {
@@ -52,6 +55,7 @@
     height: 100px;
 }
 
+/* Styling každé kategorie menu */
 .menu {
     padding-top: 20px;
     border: 1px solid var(--main-color);
@@ -78,6 +82,7 @@
     padding: 5px;
 }
 
+/* Styling menu do 2 sloupců */
 .ceny {
     display: flex;
     flex-direction: row;
@@ -98,6 +103,8 @@
     text-align: right;
 }
 
+/* Shaking effect na obrázcích */
 .shake:hover {
     cursor: pointer;
 }
+
