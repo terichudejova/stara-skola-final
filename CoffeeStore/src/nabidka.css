@@ -2,7 +2,7 @@
 /* NABÍDKA PAGE - grid */
 #nabidka {
     position: relative;
-    height: 1200px;
+    height: 1100px;
     background-color: var(--third-color);
     width: 65%;
     display: grid;
@@ -117,5 +117,111 @@
     #nabidka {
         width: 50%;
     }
+}
+
+@media only screen and (max-width: 1590px) {
+    .ceny {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #dort p {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    #nabidka {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    #nabidka {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1105px) {
+    .menu p {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #nabidka {
+        width: 90%;
+    }
+
+    #prostor {
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .menu ul {
+        font-size: 14px;
+    }
+
+    #nabidka {
+        width: 92%;
+        height: 1000px;
+    }
+
+    .menu {
+        margin: 15px;
+    }
+
+    #dort p {
+        font-size: 14px;
+    }
+
+    #kava {
+        margin-top: 40px;
+    }
+
+    #caj {
+        margin-top: 40px;
+    }
+
+    #prostor {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #nadpis {
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+
+    #nabidka {
+        grid-template-areas:
+        "nadpis"
+        "kava"
+        "caj"
+        "limo"
+        "dort"
+        "prostor";
+        height: 1600px;
+    }
+
+    .menu {
+        margin-bottom: 20px;
+    }
+
+    #kava {
+        margin-top: 20px;
+    }
+
+    #caj {
+        margin-top: 20px;
+    }
+
 }
 

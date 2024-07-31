@@ -140,9 +140,9 @@ function App() {
                     <p>Každý den pečeme nové dobroty.</p>
                 </div>
                 <div id='prostor'></div>
-                <ShakeImage url={"/src/images/pytel.png"} top={"50%"} left={"-20%"} width={"100px"} height={"100px"} className="shake"/>
+                <ShakeImage url={"/src/images/pytel.png"} top={"50%"} left={"-20%"} width={"100px"} height={"100px"} className="shake pytel"/>
                 <ShakeImage url={"/src/images/beans.png"} top={"20%"} left={"70%"} width={"80px"} height={"80px"} className="shake beans"/>
-                <ShakeImage url={"/src/images/mocha.png"} top={"50%"} left={"95%"} width={"120px"} height={"120px"} className="shake"/>
+                <ShakeImage url={"/src/images/mocha.png"} top={"50%"} left={"95%"} width={"120px"} height={"120px"} className="shake mocha"/>
             </div>
 
             {/* SEKCE KONTAKT */}

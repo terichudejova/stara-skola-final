@@ -10,14 +10,48 @@
     animation: shake 0.5s infinite;
   }
 
-@media (max-width: 1700px) {
+@media only screen and (max-width: 1700px) {
     .beans {
         left: 60% !important;
     }
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1250px) {
+  .pytel {
+      left: -10% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .pytel {
+      width: 80px !important;
+      height: 80px !important;
+      top: 66% !important;
+      left: -2% !important;
+  }
+
+  .mocha {
+    width: 90px !important;
+    height: 90px !important;
+    left: 85% !important;
+    top: 52% !important;
+  }
+}
+
+@media only screen and (max-width: 880px) {
   .beans {
-      left: 50% !important;
+    width: 70px !important;
+    height: 70px !important;
+    top: 25% !important;
+  }
+
+  .pytel {
+    top: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .beans {
+    top: 10% !important;
   }
 }
