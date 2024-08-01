@@ -54,6 +54,7 @@
 
 /* RESPONSIVITY */
 
+
 /* Bigger screen */
 @media only screen and (min-width: 1550px) {
     #landingPage {
@@ -72,7 +73,28 @@
     
     #landingPage::after {
         height: 550px;
-        top: 420px;
+        top: 420;
+        transform: skewY(-3deg);
+    }
+}
+
+@media only screen and (min-width: 2300px) {
+    #landingPage h1 {
+        font-size: 60px;
+    }
+
+    #landingPage > p {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 3500px) {
+    #landingPage h1 {
+        font-size: 70px;
+    }
+
+    #landingPage > p {
+        font-size: 35px;
     }
 }
 

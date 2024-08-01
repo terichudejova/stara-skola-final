@@ -21,6 +21,32 @@
 
 /* RESPONSIVITY */
 
+@media only screen and (min-width: 2300px) {
+    #povidani h2 {
+        font-size: 50px;
+    }
+
+    #povidani p {
+        font-size: 25px;
+    }
+
+    #povidani {
+        width: 40%;
+        height: 100%;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 3500px) {
+    #povidani h2 {
+        font-size: 60px;
+    }
+
+    #povidani p {
+        font-size: 30px;
+    }
+}
+
 /* Menší než 1000px */
 @media only screen and (max-width: 999px) {
     #povidani {

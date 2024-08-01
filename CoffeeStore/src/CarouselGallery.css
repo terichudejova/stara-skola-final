@@ -36,6 +36,12 @@
     }
 }
 
+@media only screen and (min-width: 2300px) {
+  .carousel {
+    margin-top: 0;
+  }
+}
+
 @media only screen and (max-width: 580px) {
   .carousel {
     margin-top: 60px;

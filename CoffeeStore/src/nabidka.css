@@ -119,6 +119,47 @@
     }
 }
 
+@media only screen and (min-width: 2300px) {
+    #nabidka h3 {
+        font-size: 50px;
+    }
+
+    .menu h4 {
+        font-size: 35px;
+    }
+
+    .menu ul {
+        font-size: 25px;
+    }
+
+    .menu p {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    #nabidka {
+        height: 1400px;
+    }
+}
+
+@media only screen and (min-width: 3500px) {
+    #nabidka h3 {
+        font-size: 60px;
+    }
+
+    .menu h4 {
+        font-size: 45px;
+    }
+
+    .menu ul {
+        font-size: 30px;
+    }
+
+    .menu p {
+        font-size: 30px;
+    }
+}
+
 @media only screen and (max-width: 1590px) {
     .ceny {
         padding-left: 20px;
@@ -227,6 +268,41 @@
     #prostor {
         height: 40px;
     }
-
 }
 
+@media only screen and (max-width: 530px) {
+    #nabidka {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #nabidka {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #nabidka h3 {
+        font-size: 25px;
+    }
+
+    #nadpis {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu h4 {
+        font-size: 20px;
+    }
+
+    .menu ul {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #nabidka {
+        width: 90%;
+    }
+}

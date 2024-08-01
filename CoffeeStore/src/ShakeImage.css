@@ -74,3 +74,71 @@
     left: -9% !important;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  .beans {
+    left: 40% !important;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .beans {
+    left: 35% !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .beans {
+    left: 25% !important;
+  }
+
+  .mocha {
+    left: 85% !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .beans {
+    top: 7% !important;
+    left: 20% !important;
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .mocha {
+    width: 70px !important;
+    height: 70px !important;
+    transform: rotate(0) !important;
+  }
+
+  .pytel {
+    width: 62px !important;
+    height: 62px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .beans {
+    width: 50px !important;
+    height: 50px !important;
+    top: 8% !important;
+    left: 30% !important;
+  }
+
+  .mocha {
+    width: 65px !important;
+    height: 65px !important;
+    left: 80% !important;
+  }
+
+  .pytel {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .beans, .mocha, .pytel {
+    display: none !important;
+  }
+}

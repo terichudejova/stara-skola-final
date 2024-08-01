@@ -20,6 +20,7 @@
 #copyright {
     padding-top: 40px;
     font-size: 12px;
+    padding-bottom: 10px;
 }
 
 /* CONTACT PAGE - ADRESY A MAPA - row */
@@ -100,6 +101,34 @@
     }
 }
 
+@media only screen and (min-width: 2300px) {
+    #kontakt h2 {
+        font-size: 50px;
+    }
+
+    #kontakt p {
+        font-size: 25px;
+    }
+
+    #copyright {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (min-width: 3500px) {
+    #kontakt h2 {
+        font-size: 60px;
+    }
+
+    #kontakt p {
+        font-size: 35px;
+    }
+
+    #copyright {
+        font-size: 20px !important;
+    }
+}
+
 @media only screen and (max-width: 1250px) {
     .adresa:nth-of-type(1) {
         padding-top: 0px;
@@ -116,6 +145,11 @@
         justify-content: start;
         align-items: center;
         width: 80%;
+        margin-top: 30px;
+    }
+
+    #kontakt h2 {
+        font-size: 30px;
         margin-top: 40px;
     }
 
@@ -140,8 +174,54 @@
     }
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 800px) {
+    .contactCard {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #kontakt h2 {
+        font-size: 22px;
+    }
+
+    .adresa p {
+        font-size: 15px;
+    }
+
+    .adresa {
+        margin-bottom: 15px;
+    }
+
+    #copyright {
+        font-size: 10px;
+    }
+
+    .iconka {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
     .contactPage {
-        width: 100%;
+        margin-top: 20px;
+    }
+
+    #kontakt h2 {
+        font-size: 20px;
+    }
+
+    .adresa p {
+        font-size: 12px;
+    }
+
+    #copyright {
+        font-size: 8px;
+    }
+
+    .iconka {
+        font-size: 26px !important;
     }
 }
