@@ -33,7 +33,7 @@ function App() {
           {/* ÚVODNÍ (MODRÁ) LANDING PAGE */}
             <div id='landingPage'>
               <div id='navbar'>
-                  <a href='#landingPage'><img id="logo" src="src/images/logo.jpg"/></a>
+                  <a href='#landingPage'><img id='logo' src='/src/images/logo.jpg'/></a>
                   <NavigationBar/>
               </div>
               <h1 id='onas'>kavárna Stará škola</h1>
