@@ -208,7 +208,8 @@
         "limo"
         "dort"
         "prostor";
-        height: 1600px;
+        height: 1400px;
+        width: 65%;
     }
 
     .menu {
@@ -221,6 +222,10 @@
 
     #caj {
         margin-top: 20px;
+    }
+
+    #prostor {
+        height: 40px;
     }
 
 }
