@@ -22,3 +22,18 @@
         padding-right: 80px;
     }
 }
+
+@media only screen and (max-width: 420px) {
+    #kdoJsme {
+        height: 70%;
+        justify-content: space-around;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #kdoJsme {
+        height: 100%;
+    }
+}

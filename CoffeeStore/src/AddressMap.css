@@ -1,14 +1,14 @@
 
-@media (max-width: 1250px) {
+@media only screen and (max-width: 1250px) {
     .google-map-code iframe {
       width: 400px;
       height: 300px;
     }
 }
 
-@media (max-width: 1100px) {
+@media only screen and (max-width: 650px) {
     .google-map-code iframe {
-      order: 1;
-    }
+        width: 80%;
+        height: 150px;
+      }
 }
-

@@ -83,3 +83,51 @@
       top: 40px;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .nav-menu {
+    width: 80%;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-menu a {
+    padding: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .hamburger-menu {
+    right: 10px;
+    top: 30px;
+  }
+
+  .nav-menu {
+    width: 65%;
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+  }
+}
+
+
+
+@media only screen and (max-width: 470px) {
+  .hamburger-menu {
+    right: 0px;
+    top: 25px;
+  }
+
+  .menu-toggle {
+    width: 25px;
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .menu-toggle {
+    width: 22px;
+    height: 18px;
+  }
+}

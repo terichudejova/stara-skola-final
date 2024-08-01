@@ -120,6 +120,72 @@
         height: 250px;
         top: 660px;
     }
+}
 
-    
+@media only screen and (max-width: 650px) {
+    #landingPage h1 {
+        font-size: 25px;
+    }
+
+    #landingPage p {
+        font-size: 10px;
+    }
+
+    #landingPage {
+        height: 700px;
+    }
+
+    #landingPage::after {
+        height: 230px;
+        top: 560px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #landingPage h1 {
+        font-size: 20px;
+    }
+
+    #landingPage {
+        height: 800px;
+    }
+
+    #landingPage::after {
+        height: 300px;
+        top: 550px;
+    }
+
+    #landingPage > p {
+        width: 60%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #landingPage {
+        height: 700px;
+    }
+
+    #landingPage::after {
+        height: 300px;
+        top: 450px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #landingPage > p {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #landingPage {
+        height: 600px;
+    }
+
+    #landingPage::after {
+        height: 250px;
+        top: 450px;
+    }
 }
